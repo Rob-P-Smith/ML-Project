@@ -1,0 +1,1 @@
+“Data Page: Population”, part of the following publication: Hannah Ritchie, Lucas Rodés-Guirao, Edouard Mathieu, Marcel Gerber, Esteban Ortiz-Ospina, Joe Hasell and Max Roser (2023) - “Population Growth”. Data adapted from PBL Netherlands Environmental Assessment Agency, Gapminder, United Nations. Retrieved from https://ourworldindata.org/grapher/population [online resource]
