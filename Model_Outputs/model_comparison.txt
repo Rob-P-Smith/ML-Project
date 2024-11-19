@@ -1,0 +1,98 @@
+Model Comparison Results
+=======================
+
+Random Forest
+-------------
+R2 Score:
+0.9853
+MSE:
+61.4253
+MAE:
+5.7760
+Feature Importance:
+  Unnamed: 0: 0.1677
+  pop: 0.1982
+  popChangePercent: 0.0545
+  avgtemp: 0.0041
+  oilProductionInTWh: 0.1931
+  barrelsEquivalent: 0.2006
+  motorizedMerchantShipsOver100T: 0.1236
+  annualLoss: 0.0582
+Coefficients:
+nan
+Accuracy:
+nan
+Feature Coefficients:
+nan
+Classification Report:
+nan
+
+Linear Regression
+-----------------
+R2 Score:
+0.9818
+MSE:
+75.9231
+MAE:
+6.4117
+Feature Importance:
+nan
+Coefficients:
+  Unnamed: 0: 1.2563
+  pop: 0.0000
+  popChangePercent: 0.3906
+  avgtemp: -8.0473
+  oilProductionInTWh: 0.0006
+  barrelsEquivalent: -0.0000
+  motorizedMerchantShipsOver100T: -0.0004
+  annualLoss: 0.0003
+Accuracy:
+nan
+Feature Coefficients:
+nan
+Classification Report:
+nan
+
+Logistic Regression
+-------------------
+R2 Score:
+nan
+MSE:
+nan
+MAE:
+nan
+Feature Importance:
+nan
+Coefficients:
+nan
+Accuracy:
+0.8276
+Feature Coefficients:
+  Unnamed: 0: -1.3504
+  pop: 1.0327
+  popChangePercent: -1.3003
+  avgtemp: -0.1726
+  oilProductionInTWh: 0.6402
+  barrelsEquivalent: 0.5919
+  motorizedMerchantShipsOver100T: -0.4342
+  annualLoss: 0.7511
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.88      0.86        17
+           1       0.82      0.75      0.78        12
+
+    accuracy                           0.83        29
+   macro avg       0.83      0.82      0.82        29
+weighted avg       0.83      0.83      0.83        29
+
+Model Analysis & Impact of 50% Reduction in Key Factors
+Based on the statistics, here's how the models would predict GMSL changes with 50% reductions in key contributors:
+
+Random Forest (98.53% accuracy, MAE 5.77mm) identifies barrels equivalent (20.06%), population (19.82%), and oil production (19.31%) as the most significant factors. A 50% reduction in these three factors could theoretically reduce GMSL predictions by ~29.6% (summing half of their combined feature importance of 59.19%).
+
+Linear Regression (98.18% accuracy, MAE 6.41mm) shows average temperature has the strongest coefficient (-8.0473), suggesting temperature control could have the largest impact. However, the model's higher MSE (75.92 vs RF's 61.43) indicates less reliable predictions.
+
+Logistic Regression (82.76% accuracy) confirms population (1.0327) and annual loss (0.7511) as significant trend drivers, but is better suited for classifying above/below trend predictions rather than precise GMSL values.
+
+The Random Forest model provides the most robust predictions for precise GMSL values, while focusing mitigation efforts on reducing oil/fuel consumption and population growth could have the most significant impact on future sea levels.
