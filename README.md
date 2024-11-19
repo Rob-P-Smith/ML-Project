@@ -9,4 +9,3 @@ identify the strongest correlations between input parameters and expected GMSL r
 identify the strongest correlations between input parameters and expected temperature rise by 2100  
 determine what input values will slow the sea level rise and taper the temperature rise (aka what do we need to achieve in what areas to get a stable planet)  
 
-Try not to cry about our future as I look as these graphs...
