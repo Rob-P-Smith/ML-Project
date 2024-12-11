@@ -16,6 +16,7 @@ This data set was assembled through by incorporating a multitude of Kagel datase
 
 ## **Running the Project**
 
+0. The project was built using Python 3.13 and may not work with previous versions.
 1. First run `pip install statsmodels` to get the necessary tool set.
 2. To run the project simply run each cell in `prepareData1.ipynb`, then `prepareData2.ipynb` to generate the correct, normalized, prepared dataset file in the **Outputs** folder.
 3. Then run the `Test_Models.ipynb` file located in the **Model_Outputs** folder to generate the predictions in the same folder.
