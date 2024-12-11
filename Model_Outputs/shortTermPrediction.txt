@@ -1,0 +1,29 @@
+Long-Term GMSL and Population Predictions (2022-2030)
+=============================================
+
+Year | Population (billions) | RF GMSL (mm) | LR GMSL (mm) | Trend
+----------------------------------------------------------------------
+2022.0 | 7955341146.41 | 55.04 | 66.07 | Above
+2023.0 | 8001387141.82 | 55.07 | 67.63 | Above
+2024.0 | 8047433137.23 | 55.07 | 69.18 | Above
+2025.0 | 8093479132.65 | 54.82 | 70.74 | Above
+2026.0 | 8139525128.06 | 54.68 | 72.30 | Above
+2027.0 | 8185571123.47 | 54.85 | 73.86 | Above
+2028.0 | 8231617118.88 | 54.85 | 75.42 | Above
+2029.0 | 8277663114.29 | 54.59 | 76.98 | Above
+2030.0 | 8323709109.70 | 54.33 | 78.54 | Above
+
+Summary Statistics:
+=================
+Population in 2030: 8323709109.70
+Average RF GMSL Prediction: 54.81
+Average LR GMSL Prediction: 72.30
+Years Above Trend: 9
+Years Below Trend: 0
+
+Predicted GMSL Change by 2030:
+============================
+Random Forest Model: -0.72
+Linear Regression Model: 12.47
+
+
